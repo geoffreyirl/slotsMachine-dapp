@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+html,
+body,
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.clearfix {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #dcdcdc;
+}
+
+table#payout td {
+  width: 48.57142857142857px;
+}
+table#stats {
+  background: #34495e;
+}
+table#stats td {
+  padding: 1em !important;
+  width: 50%;
+  color: #fff;
+}
+.heading {
+  color: #dd5 !important;
+  font-weight: bold;
+}
+.no-border {
+  border: none;
+}
+#reel-wrap {
+  background: url(../img/main_bg_machine.png) no-repeat;
+  height: 425px;
+  margin: 0 auto;
+  position: relative;
+  width: 540px;
+}
+#reel-wrap-win {
+  background: url(../img/won_bg.png) no-repeat;
+  width: 448px;
+  height: 103px;
+  position: absolute;
+  top: 73px;
+  left: 35px;
+}
+div#reel-col-inner {
+  float: left;
+  height: 150px;
+  position: absolute;
+  bottom: 60px;
+  left: 42px;
+  width: 435px;
+}
+
+.reel-col {
+  float: left;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  width: 134px;
+  text-align: center;
+}
+#reel-col-1 {
+  margin-left: 2px;
+}
+#reel-col-2 {
+  margin-left: 15px;
+  width: 128px;
+}
+#reel-col-3 {
+  margin-left: 18px;
+  width: 128px;
+}
+.reel-container {
+  position: absolute;
+  top: -2850px;
+}
+
+.slot-frame {
+  font-size: 150px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  width: 134px;
+  background: #fff;
+}
+.slot-frame img {
+  vertical-align: top;
+}
+.slot-wrap h1 {
+  margin: 0;
+}
+.dia,
+.hea {
+  color: #c00;
+}
+
+.slots_img img {
+  width: 24px;
+}
+
+.slots_img {
+  padding: 5px;
+}
+.sta {
+  color: #265cff;
+}
+
+.smi {
+  color: #008c23;
+}
+
+.slot-frame.dia {
+  position: relative;
+  left: -8px;
+}
+
+.slot-frame.adj {
+  font-size: 145px;
+  left: -25px;
+  position: relative;
+  top: -5px;
+}
+
+.slot-frame.sm {
+  font-size: 100px;
+}
+
+#score-float {
+  color: #00d936;
+  display: none;
+  font: 900 2.6em/1em Arial;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#spin {
+  font: 900 1.2em/1.2em Arial;
+  height: 50px;
+  width: 520px;
+}
